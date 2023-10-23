@@ -6,14 +6,14 @@ public class Person {
     private String birthday;
     private String address;
 
-    // Getters and setters for the attributes
+ 
 
     public String getFirstName() {
         return firstName;
     }
 
     public void setFirstName(String firstName) {
-        firstName = firstName; // Using parameter shadowing
+        firstName = firstName; 
     }
 
     public String getMiddleName() {
@@ -21,7 +21,7 @@ public class Person {
     }
 
     public void setMiddleName(String middleName) {
-        middleName = middleName; // Using parameter shadowing
+        middleName = middleName; 
     }
 
     public String getLastName() {
@@ -29,7 +29,7 @@ public class Person {
     }
 
     public void setLastName(String lastName) {
-        lastName = lastName; // Using parameter shadowing
+        lastName = lastName; 
     }
 
     public int getAge() {
@@ -37,7 +37,7 @@ public class Person {
     }
 
     public void setAge(int age) {
-        age = age; // Using parameter shadowing
+        age = age; 
     }
 
     public String getBirthday() {
@@ -45,7 +45,7 @@ public class Person {
     }
 
     public void setBirthday(String birthday) {
-        birthday = birthday; // Using parameter shadowing
+        birthday = birthday; 
     }
 
     public String getAddress() {
@@ -53,10 +53,10 @@ public class Person {
     }
 
     public void setAddress(String address) {
-        address = address; // Using parameter shadowing
+        address = address; 
     }
 
-    // Constructors
+   
 
     public Person(String firstName, String middleName, String lastName, int age, String birthday, String address) {
         this.firstName = firstName;
@@ -67,10 +67,10 @@ public class Person {
         this.address = address;
     }
 
-    // You can also add other methods and behaviors as needed.
+   
 
     public static void main(String[] args) {
-        // Example usage:
+        
         Person person = new Person("John Louie", "R", "Gaborno", 19, "01/27/2003", "Nivel Hills Lahug Cebu City");
         System.out.println("First Name: " + person.getFirstName());
         System.out.println("Middle Name: " + person.getMiddleName());
